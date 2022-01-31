@@ -32,6 +32,7 @@ api-key
 Шаг 2
 Создание ендпоинта для верификации email'а
 добавить в модель User два поля verificationToken и verify. Значение поля verify равное false будет означать, что его email еще не прошел верификацию
+
 {
   verify: {
     type: Boolean,
