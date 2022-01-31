@@ -116,7 +116,7 @@ router.patch(
 
 async function squeeze(pathToFile, filename) {
   const image = await Jimp.read(`${pathToFile}`)
-  await image.resize(256, 256)
+  await image.resize(250, 250)
   await image.writeAsync(`${pathToFile}`)
   return filename.split('.').reverse()
 }
