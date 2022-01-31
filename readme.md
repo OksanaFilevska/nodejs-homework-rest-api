@@ -95,3 +95,7 @@ Content-Type: application/json
 ResponseBody: {
   message: "Verification has already been passed"
 }
+Примечание: Как альтернативу SendGrid можно использовать пакет nodemailer
+
+Дополнительное задание - необязательное
+1. Напишите dockerfile для вашего приложения
