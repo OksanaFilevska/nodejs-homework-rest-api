@@ -9,7 +9,7 @@ const { joiSchema } = require('../../models/user')
 const router = express.Router()
 const gravatar = require('gravatar')
 
-const { SECRET_KEY } = process.env
+const { SECRET_KEY, SITE_NAME } = process.env
 
 router.post('/signup', async (req, res, next) => {
   try {
